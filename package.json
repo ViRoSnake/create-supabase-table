@@ -1,0 +1,17 @@
+{
+  "name": "create-supabase-table",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "start": "yarn tsc && node main.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.26.0",
+    "dotenv": "^16.3.1"
+  }
+}
